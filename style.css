@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Cardo:ital,wght@0,400;0,700;1,400&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lora:ital,wght@0,400..700;1,400..700&family=Mitr:wght@200;300;400;500;600;700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+HR:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Cardo:ital,wght@0,400;0,700;1,400&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lora:ital,wght@0,400..700;1,400..700&family=Mitr:wght@200;300;400;500;600;700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+HR:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+html{
+    overflow-x: hidden;
+}
+.offcanvas-body .nav-link{
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+}
+.nav-item{
+    padding-right: 30px;
+}
+.navbar-brand{
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+} 
+.navbar-brand:hover{
+    color: white;
+}
+.wrapper{
+    background-image: url(https://images01.nicepage.com/04/c9/04c92f4b1888be1f59c0cf8549526806.jpeg);
+    height: 850px;
+    background-size:cover;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.container-discount{
+    background-image: url(https://images01.nicepage.com/8d/98/8d98d9f895d45f1a7a10b3f4152d0a2a.jpeg);
+    height: 600px;
+    background-size:cover;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.container-middle h1{
+    color: white;
+    font-size: 100px;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+}
+.container-middle p{
+    color: white;
+    font-size: 23px;
+}
+.container-middle button{
+    color: white;
+    border: none;
+    background-image: linear-gradient(135deg, #478ac9, #24d9ea);
+    padding: 15px 40px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+@media(max-width:768px){
+    .discount-text h3{
+        font-size: 45px !important;
+    }
+    .discount-text p{
+        font-size: 22px !important;
+    }
+    .discount-text button{
+        font-size: 20px !important;
+    }
+    .container-middle h1{
+        font-size: 80px;
+    }
+    .container-middle p{
+        font-size: 20px;
+    }
+    .container-middle button{
+        font-size: 18px;
+    }
+}
+@media(max-width:426px){
+    .container-middle h1{
+        font-size: 70px;
+    }
+    .container-middle p{
+        font-size: 20px;
+    }
+    .container-middle button{
+        font-size: 15px;
+    }
+    .card-text h1{
+        font-size: 40px !important;
+    }
+    .discount-text h3{
+        font-size: 30px!important;
+    }
+    .discount-text p{
+        font-size: 18px !important;
+    }
+    .discount-text button{
+        font-size: 25px;
+    }
+    .discount-text{
+        height: 10px !important;
+    }
+    .foot-p{
+        display: flex;
+        flex-direction: column;
+    }
+}
+.card-text h1{
+    color: #478ac9;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    font-size: 50px;
+}
+.card-text p{
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-style: italic;
+    color: #6b7397;
+}
+.card img{
+    height: 360px;
+}
+.card{
+    border: none;
+    border-radius: 0px;
+}
+.card-body span{
+    font-size: 19px;
+    font-family: "Open Sans", sans-serif;
+    font-style: italic;
+    font-weight: normal;
+}
+.card-body i{
+    font-size: 25px;
+    color: #c0c0c0;
+    margin-right: 5px;
+}
+.album{
+    background-color: #e9f2fa;
+}
+.discount-text h3{
+    font-size: 60px;
+    color: white;
+}
+.discount-text p{
+    font-size: 25px;
+    color: white;
+}
+.discount-text button{
+    background-color: transparent !important;
+    border: 2px solid white;
+    color: white;
+    font-size: 25px;
+    padding: 10px 40px;
+}
+.foot-p a{
+    text-decoration: none;
+    color: #478ac9;
+    font-weight: 600;
+    font-size: 18px;
+}
+.foot-p li{
+    list-style-type: none;
+    padding-bottom: 10px;
+}
+.content-footer input{
+    width: 50%;
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    margin-right: 10px;
+    background-color: #f2f2f2;
+}
+.content-footer button{
+    background-color: #478ac9;
+    color: white;
+    border: none;
+    padding: 10px 40px;
+}
+.foot-icon{
+    font-size: 23px;
+    color: #c0c0c0;
+}
+.foot-icon i{
+    padding-right: 20px;
+}
